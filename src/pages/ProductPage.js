@@ -15,6 +15,7 @@ export default function ProductPage(){
 	const [allProducts,setAllProducts] = useState([]);
 
 	const fetchData = ()=>{
+		console.log(process.env.REACT_APP_CAPSTONE3BACKEND)
 		fetch(`${process.env.REACT_APP_CAPSTONE3BACKEND}/products/`)
 		.then(res => res.json())
 		.then(data =>{
