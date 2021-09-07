@@ -1,4 +1,27 @@
-.App {
+
+.cardHighlight {
+  text-align: center;
+  min-height: 70%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.jumbotron {
+  padding-top: 9px !important;
+  padding-bottom: 9px !important;
+}
+
+#root {
+  background-color: white;
+}
+
+
+
+
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +58,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
+
